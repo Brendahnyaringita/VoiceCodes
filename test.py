@@ -11,6 +11,7 @@ api = Api(app)
 username = os.getenv('user_name', 'username')
 api_key  = os.getenv('api_key', 'api')
 
+#start here
 
 africastalking.initialize(username, api_key)
 voice = africastalking.Voice
