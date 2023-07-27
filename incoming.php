@@ -7,7 +7,7 @@
   if ($isActive == 1)  {
   $response  = '<?xml version="1.0" encoding="UTF-8"?>';
   $response .= '<Response>';
-  $response .= '<Say>Welcome to Africas Talking voice services</Say>';
+  $response .= '<Say>Welcome services</Say>';
   $response .= '<Play url="http://www.myvoicemailserver.com/audio/vmail.mp3"/>';
   $response .= '</Response>';
   
